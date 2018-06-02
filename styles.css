@@ -1,0 +1,130 @@
+/*
+Student Name: Ediel Lopez 
+Course: IS 40A            
+File name: styles.css
+Date: 5/4/2018  
+*/  
+
+
+/* reset styles */
+/* ======================================== */
+html {
+	font-size: 14px;
+}
+article, body, div, footer, header, h1, h3, nav, p, img, figcaption, figure {
+	border: 0;
+   padding: 0;
+   margin: 0;
+}
+img {
+   max-width: 100%;
+   /*display: block;*/
+}
+/* ======================================== */
+
+
+/* site navigation */
+/* ================================ */
+nav.sitenavigation {
+   padding: 1%;
+   text-align: center;
+   background-color: #192231;
+}
+nav.sitenavigation p {
+   margin: 0 1em;
+   display: inline-block;
+}
+nav.sitenavigation a:link {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+}
+nav.sitenavigation a:visited {
+   color: #FFF7C0; 
+}
+nav.sitenavigation a:hover, nav.sitenavigation a:focus {
+   text-shadow: 0 0 2px #DFDCE3;
+}
+/* ================================ */
+
+/* header section */
+/* ==================================================== */
+header {
+	background-color: #494e6b;
+	text-align: center;
+	padding: 1em;
+}
+header h4 {
+   margin-top: 0.2em;
+   margin-bottom: 0.2em;
+}
+/* ==================================================== */
+
+/* body and page container */
+/* ==================================================== */
+
+body {
+   font-family: Arimo, Arial, Helvetica, sans-serif;
+   color: white;
+}
+.container {
+   max-width: 800px;
+   margin: 0 auto;
+   border-left: 3px solid black;
+   border-right: 3px solid black;
+   position: relative;
+   background-color: #6D7993;
+}
+p a {
+   text-decoration: none;
+}
+article {
+   padding: 2%;
+   overflow: auto;
+}
+article h3 {
+   clear: right;
+}
+article figure {
+   max-width: 100%;
+   margin-left: 1em;
+   margin-bottom: 2em;
+   margin-top: 0.5em;
+   float: right;
+}
+article aside img {
+   max-width: 100%;
+   margin-top: 1em;
+   margin-left: 15em;
+}
+article figcaption, aside figcaption {
+   text-align: center;
+   font-weight: bold;
+}
+article p {
+   margin-left: 2em;
+   text-align: justify;
+}
+.rotate {
+   transform: rotate(90deg);
+}
+.rotate2 {
+   transform: rotate(360deg);
+}
+.imagemap {
+   text-align: center;
+}
+/*.imagemap img {
+   max-width: none;
+}*/
+/* ==================================================== */
+
+/* footer section */
+/* ==================================================== */
+footer {
+   padding: 4px;
+   text-align: center;
+   color: white;
+   background-color: #192231;
+}
+/* ==================================================== */
